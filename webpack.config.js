@@ -46,7 +46,7 @@ module.exports = (env, argv) => ({
       To order these script tags, see the `chunks` option of
       `HtmlWebpackPlugin` down below in the plugins section.
     */
-    main: path.resolve(__dirname, 'src/entry.jsx')
+    main: path.resolve(__dirname, 'src/app.jsx')
   },
 
   /*

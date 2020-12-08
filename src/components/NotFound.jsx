@@ -3,9 +3,9 @@ import React from 'react'
 const NotFound = () => {
   return (
     <>
-      <h1>Looking for something?</h1>
+      <h1 className="white">Looking for something?</h1>
       <p>
-        <span className="i">{window.location.href}</span> doesn't exist.
+        <span className="i">{window.location.href}</span> cannot be found
       </p>
     </>
   )
