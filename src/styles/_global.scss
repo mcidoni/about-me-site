@@ -18,15 +18,51 @@ body {
   font: 16px/1 'Open Sans', Arial, Helvetica, sans-serif, white;
 }
 
+
 .name {
   margin-right: auto;
 }
 
 .hp-link {
-  color: inherit;
+  // color: inherit;
   text-decoration: none;
   transition: transform .3s;
   &:hover {
     transform: translateY(-12%);
   }
+}
+
+.hp-link.name {
+  color: lemonchiffon;
+}
+
+.hp-link.about {
+  color: dodgerblue;
+}
+
+.hp-link.projects {
+  color: lightpink;
+}
+
+.hp-link.github {
+  color: aquamarine;
+}
+
+.abt-header {
+  display: flex;
+  text-align: justify;
+  margin: 35px;
+}
+
+.abt-info {
+  display: flex;
+  text-align: justify;
+  margin: 35px;
+  font-size: 20px;
+}
+
+.skillz {
+  display: flex;
+  text-align: justify;
+  margin: 35px;
 }

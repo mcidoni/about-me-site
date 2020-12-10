@@ -21,6 +21,7 @@ import Github from 'components/Github'
 
 // Import React Router things.
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Projects from './components/Projects'
 
 
 // Mount our app.
@@ -29,15 +30,16 @@ ReactDOM.render(
      <header className="pv1 bg-black white-95 df justify-end f-2rem b pa4">
         {/* <h1 className="mt0 mb1 tc">Matt Cidoni</h1> */}
         {/* <div className="tc ttc">Coder Extraordinnaire</div> */}
-        <Link to="/home" className="ml6 hp-link name">matthew cidoni</Link>
-        <Link to="/about" className="ml6 hp-link">about me</Link>
-        <Link className="ml6 hp-link">projects</Link>
-        <Link to="/github" className="ml6 hp-link">github</Link>
+        <Link to="/" className="ml6 hp-link name">matthew cidoni</Link>
+        <Link to="/about" className="ml6 hp-link about">about me</Link>
+        <Link to="/projects" className="ml6 hp-link projects">projects</Link>
+        <Link to="/github" className="ml6 hp-link github">github</Link>
       </header>
     <Switch>
-      <Route exact path="/home" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/github" component={Github} />
+      <Route exact path="/projects" component={Projects} />
       <Route component={NotFound} />
     </Switch>
   </Router>,
