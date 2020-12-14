@@ -6,15 +6,14 @@ const About = () => {
       <h1 className="abt-header">step into my office...</h1>
       <div>
         <p className="abt-info">
-          Welcome to my site! If you haven't already opened the inspector, I made this webiste using React (it really is the best).
           For years, I thought I wasn't cut out for software engineering. I never viewed myself as a "tech-y" kind of guy, or I
           thought I was too right-brained to work in tech. Enter JavaScript and its creative awesomeness. A relative of mine
           introduced me to just how creative the world of web development is, and the minute I saw my code changes pop up
-          in the browser in REAL TIME I was hooked. From humble p-tags to bigger-and-badder React apps, I am constantly learning more
+          in the browser in real time I was hooked. From humble p-tags to bigger-and-badder React apps, I am constantly learning more
           and more about the tools that allow me to put whatever I can think up onto the web for everyone to use!
         </p>
         <p>
-          <h1 className="skillz bg-white black b">my skills include:</h1>
+          {/* <h1 className="skillz bg-white black b">my skills include:</h1> */}
         </p>
       </div>
     </div>

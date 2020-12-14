@@ -38,7 +38,12 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/github" component={Github} />
+      {/* <Route exact path="/github" component={Github} />
+       */}.
+       <Route path='/github' component={() => { 
+        window.location.href = 'https://github.com/mcidoni'; 
+        return null;
+        }}/>
       <Route exact path="/projects" component={Projects} />
       <Route component={NotFound} />
     </Switch>
