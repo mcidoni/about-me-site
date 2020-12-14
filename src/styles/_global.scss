@@ -90,8 +90,9 @@ body {
   margin: 50px;
   font-size: 20px;
   font-weight: 500;
-  color: gray;
+  color:whitesmoke;
   padding: 30px;
+  line-height: 2;
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
   -moz-animation: fadeIn ease 5s;
@@ -170,4 +171,12 @@ body {
 
 .cr {
   color: #0055ff;
+}
+
+.about-me {
+  display: grid;
+  background: #2b2b2b;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 8px #888888;
 }

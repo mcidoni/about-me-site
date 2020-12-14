@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <h1 className="abt-header">step into my office...</h1>
-      <div>
+      <div className="about-me">
         <p className="abt-info">
           For years, I thought I wasn't cut out for software engineering. I never viewed myself as a "tech-y" kind of guy, or I
           thought I was too right-brained to work in tech. Enter JavaScript and its creative awesomeness. A relative of mine
