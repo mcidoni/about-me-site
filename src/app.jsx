@@ -27,9 +27,7 @@ import Projects from './components/Projects'
 // Mount our app.
 ReactDOM.render(
   <Router>
-     <header className="pv1 bg-black white-95 df justify-end f-2rem b pa4">
-        {/* <h1 className="mt0 mb1 tc">Matt Cidoni</h1> */}
-        {/* <div className="tc ttc">Coder Extraordinnaire</div> */}
+     <header className="header pv1 bg-black white-95 df justify-end f-2rem b pa4">
         <Link to="/" className="ml6 hp-link name">matthew cidoni</Link>
         <Link to="/about" className="ml6 hp-link about">about me</Link>
         <Link to="/projects" className="ml6 hp-link projects">projects</Link>
