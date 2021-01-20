@@ -11,7 +11,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: white;
+  background-image: url(https://i.imgur.com/CDemw6R.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 
   // https://mzl.la/2KnTfHh
   // size/line-height | family
@@ -110,8 +114,10 @@ body {
 
 .about-me {
   display: grid;
-  background: #2b2b2b;
+  background: dodgerblue;
   margin: 20px;
   border-radius: 30px;
   box-shadow: 5px 10px 8px #888888;
 }
+
+  
