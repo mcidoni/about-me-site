@@ -140,28 +140,29 @@ body::before {
   background-size: contain;
 }
 
-.placeholder {
-  display: flex;
-  margin-top: 275px;
-  margin-left: 200px;
-  font-size: 50px;
-  font-weight: bold;
+// .placeholder {
+//   display: flex;
+//   margin-top: 275px;
+//   margin-left: 200px;
+//   font-size: 50px;
+//   font-weight: bold;
+//   border-radius: 30px;
+//   // margin: 20px;
+//   box-shadow: 5px 10px 8px #888888;
+//   animation: fadeIn ease 5s;
+// }
+
+.container {
+  display: grid;
+  margin-left: 160px;
+  grid-template-columns: 315px 315px 315px;
+  grid-template-rows: 350px 350px 350px;
+  grid-gap: 85px;
   border-radius: 30px;
-  // margin: 20px;
-  // box-shadow: 5px 10px 8px #888888;
-  // animation: fadeIn ease 5s;
 }
 
-// .container {
-//   display: grid;
-//   grid-template-columns: 300px 300px 300px;
-//   grid-template-rows: 300px 300px 300px;
-//   grid-gap: 30px;
-//   border-radius: 30px;
-// }
-
-// .item {
-//   background-color: dodgerblue;
-//   border-radius: 30px;
-//   opacity: 90%;
-// }
+.item {
+  background-color: dodgerblue;
+  border-radius: 30px;
+  opacity: 90%;
+}
