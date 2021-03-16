@@ -140,7 +140,7 @@ body::before {
   background-size: contain;
 }
 
-.pong {
+.placeholder {
   display: flex;
   margin-top: 275px;
   margin-left: 200px;
@@ -151,3 +151,17 @@ body::before {
   // box-shadow: 5px 10px 8px #888888;
   // animation: fadeIn ease 5s;
 }
+
+// .container {
+//   display: grid;
+//   grid-template-columns: 300px 300px 300px;
+//   grid-template-rows: 300px 300px 300px;
+//   grid-gap: 30px;
+//   border-radius: 30px;
+// }
+
+// .item {
+//   background-color: dodgerblue;
+//   border-radius: 30px;
+//   opacity: 90%;
+// }
