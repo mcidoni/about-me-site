@@ -2,7 +2,11 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <h1>Projects go here</h1>
+    <div>
+      <div className="pong">
+        <p>🚧 under construction, check back soon! 🚧</p>
+      </div>
+    </div>
     
   )
 }
