@@ -155,8 +155,10 @@ body::before {
 
 .projects-header {
   font-size: 75px;
+  font-style: italic;
   text-align: center;
   animation: fadeIn ease 2s;
+  color: #ff5151;
 }
 
 .container {
@@ -171,13 +173,14 @@ body::before {
 }
 
 .item {
-  background-color: dodgerblue;
+  background-color: #5ba2ff;
   border-radius: 30px;
   opacity: 90%;
   overflow: hidden;
   text-decoration: none;
   color: white;
   text-align: center;
+  font-style: italic;
 
 
   img {
