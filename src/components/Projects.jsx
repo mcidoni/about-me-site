@@ -1,5 +1,7 @@
 import React from 'react'
 import pong from 'assets/pong-screenshot.png'
+import jsLinn from 'assets/js-linn-screenshot.png'
+import ticTacToe from 'assets/tictactoe.png'
 
 const Projects = () => {
   return (
@@ -13,11 +15,17 @@ const Projects = () => {
           <img src={pong} alt="pong game"/>
           <h1>pong.js</h1>
         </a>
-        <div className="item"></div>
-        <div className="item"></div>
-        <div className="item"></div>
-        <div className="item"></div>
-        <div className="item"></div>
+        <a target="_blank" href="https://raw.githack.com/mcidoni/JS-Linn/main/JS%20LINN/index-START.html" className="item">
+          <img src={jsLinn} alt="javascript beatpad"/>
+          <h1>js linn</h1>
+        </a>
+        <a target="_blank" href="https://mcidoni.github.io/MC-Triple-T--client/" className="item">
+          <img src={ticTacToe} alt="tic tac toe game"/>
+          <h1>tic tac toe</h1>
+        </a>
+      </div>
+      <div>
+        <h5 className="copyright">© cidonicode 2021</h5>
       </div>
     </div>
     
