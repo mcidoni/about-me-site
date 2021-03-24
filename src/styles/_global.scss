@@ -31,6 +31,7 @@ body::before {
   position: fixed;
   z-index: -1;
   animation: fadeInBg ease 5s;
+  margin-top: 50px;
 }
 @keyframes fadeInBg {
   0% {opacity:0;}
@@ -152,6 +153,12 @@ body::before {
 //   animation: fadeIn ease 5s;
 // }
 
+.projects-header {
+  font-size: 75px;
+  text-align: center;
+  animation: fadeIn ease 2s;
+}
+
 .container {
   display: grid;
   margin-left: 160px;
@@ -159,6 +166,8 @@ body::before {
   grid-template-rows: 350px 350px 350px;
   grid-gap: 85px;
   border-radius: 30px;
+  margin-top: 70px;
+  animation: fadeIn ease 2s;
 }
 
 .item {
@@ -167,10 +176,13 @@ body::before {
   opacity: 90%;
   overflow: hidden;
   text-decoration: none;
-  color: initial;
+  color: white;
   text-align: center;
 
+
   img {
-    width: 100%;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 30px;
   }
 }

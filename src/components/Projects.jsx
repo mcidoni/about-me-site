@@ -5,12 +5,13 @@ const Projects = () => {
   return (
     <div>
       <div>
-        <p className="placeholder">🚧 under construction, check back soon! 🚧</p>
+        {/* <p className="placeholder">🚧 under construction, check back soon! 🚧</p> */}
+        <h1 className="projects-header">my projects</h1>
       </div>
       <div className="container">
         <a target="_blank" href="https://mcidoni.github.io/pong.js/" className="item">
           <img src={pong} alt="pong game"/>
-          <h3>pong.js</h3>
+          <h1>pong.js</h1>
         </a>
         <div className="item"></div>
         <div className="item"></div>
