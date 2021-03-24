@@ -165,4 +165,12 @@ body::before {
   background-color: dodgerblue;
   border-radius: 30px;
   opacity: 90%;
+  overflow: hidden;
+  text-decoration: none;
+  color: initial;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
 }
