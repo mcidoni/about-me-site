@@ -181,6 +181,10 @@ body::before {
   color: white;
   text-align: center;
   font-style: italic;
+  transition: transform .2s;
+    &:hover {
+    transform: translateY(-9%);
+  }
 
 
   img {
