@@ -17,7 +17,6 @@ import ReactDOM from 'react-dom'
 import Home from 'components/Home'
 import NotFound from 'components/NotFound'
 import About from 'components/About'
-import Github from 'components/Github'
 
 // Import React Router things.
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
