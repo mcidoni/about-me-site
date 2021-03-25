@@ -7,7 +7,6 @@ const Projects = () => {
   return (
     <div>
       <div>
-        {/* <p className="placeholder">🚧 under construction, check back soon! 🚧</p> */}
         <h1 className="projects-header">my projects</h1>
       </div>
       <div className="container">
