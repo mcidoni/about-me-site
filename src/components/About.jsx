@@ -3,13 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <h1 className="abt-header">step into my office...</h1>
+      <h1 className="abt-header">from humble beginnings...</h1>
       <div className="about-me">
         <p className="abt-info">
-          For years, I thought I wasn't cut out for software engineering. I never viewed myself as a "tech-y" kind of guy, or I
-          thought I was too right-brained to work in tech. Enter JavaScript and its creative awesomeness. A relative of mine
-          showed me just how creative the world of web development is, and the minute I saw my code changes pop up
-          in the browser in real time I was hooked. From humble p-tags to bigger-and-badder React apps, I am constantly learning more
+          Hey there, I'm Matt! Thanks for checking out my site, I built it myself! As a web developer, I enjoy the challenge of figuring out how to bring peoples' ideas (and my own) to life on the web! I have always been drawn to just about anything creative, and I always enjoy sharing my creativity with others! My journey in web development has been exciting so far, and I am always looking to grow and use my skills to help others. From humble p-tags to bigger-and-badder React apps, I am constantly learning more
           and more about the tools that allow me to put whatever I can think up onto the web for everyone to use!
         </p>
         <p>
