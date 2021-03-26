@@ -125,7 +125,7 @@ body::before {
 .about-me {
   display: grid;
   background: dodgerblue;
-  opacity: 90%;
+  opacity: .9;
   margin: 20px;
   border-radius: 30px;
   box-shadow: 5px 10px 8px #888888;
@@ -159,7 +159,7 @@ body::before {
 .item {
   background-color: #5ba2ff;
   border-radius: 30px;
-  opacity: 91%;
+  opacity: .9;
   overflow: hidden;
   text-decoration: none;
   color: white;
