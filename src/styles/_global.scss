@@ -1,6 +1,13 @@
-/*
-  px <-> em: http://pxtoem.com/
-*/
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+@keyframes fadeInBg {
+  0% {opacity:0;}
+  100% {opacity: 0.3;}
+}
 
 * {
   box-sizing: border-box;
@@ -28,10 +35,7 @@ body::before {
   animation: fadeInBg ease 5s;
   margin-top: 50px;
 }
-@keyframes fadeInBg {
-  0% {opacity:0;}
-  100% {opacity: 0.3;}
-}
+
 
 
 .name {
@@ -69,10 +73,6 @@ body::before {
   animation: fadeIn ease 2s;
   font-style: italic;
 }
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
 
 .abt-info {
@@ -87,10 +87,6 @@ body::before {
   animation: fadeIn ease 5s;
 }
 
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
 .skillz {
   display: flex;
@@ -107,11 +103,6 @@ body::before {
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
   -ms-animation: fadeIn ease 5s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
 }
 
 .wd {
@@ -147,12 +138,12 @@ body::before {
 
 .container {
   display: grid;
-  margin-left: 160px;
+  margin-top: 70px;
+  justify-content: center;
   grid-template-columns: 315px 315px 315px;
   grid-template-rows: 350px 350px 350px;
   grid-gap: 85px;
   border-radius: 30px;
-  margin-top: 70px;
   animation: fadeIn ease 2s;
 }
 
