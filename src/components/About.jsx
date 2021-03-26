@@ -13,6 +13,9 @@ const About = () => {
           {/* <h1 className="skillz bg-white black b">my skills include:</h1> */}
         </p>
       </div>
+      <div>
+        <h5 className="copyright">© cidonicode 2021</h5>
+      </div>
     </div>
 
   )

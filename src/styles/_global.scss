@@ -170,7 +170,10 @@ body::before {
 }
 
 .copyright {
-  text-align: center;
+  display: flex;
+  // text-align: center;
+  justify-content: center;
+  align-content: flex-end;
   font-weight: normal;
   margin-top: 80px;
 }
