@@ -2,6 +2,7 @@ import React from 'react'
 import pong from 'assets/pong-screenshot.png'
 import jsLinn from 'assets/js-linn-screenshot.png'
 import ticTacToe from 'assets/tictactoe.png'
+import sketchJs from 'assets/sketch-js-screenshot.png'
 
 const Projects = () => {
   return (
@@ -21,6 +22,10 @@ const Projects = () => {
         <a target="_blank" href="https://mcidoni.github.io/MC-Triple-T-client/" className="item">
           <img src={ticTacToe} alt="tic tac toe game"/>
           <h1>tic tac toe</h1>
+        </a>
+        <a target="_blank" href="https://mcidoni.github.io/etch-a-sketch.js/" className="item">
+          <img src={sketchJs} alt="etch a sketch game"/>
+          <h1>sketch.js</h1>
         </a>
       </div>
       <div>
