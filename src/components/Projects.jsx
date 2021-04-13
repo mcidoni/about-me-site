@@ -18,7 +18,7 @@ const Projects = () => {
           <img src={jsLinn} alt="javascript beatpad"/>
           <h1>js linn</h1>
         </a>
-        <a target="_blank" href="https://mcidoni.github.io/MC-Triple-T--client/" className="item">
+        <a target="_blank" href="https://mcidoni.github.io/MC-Triple-T-client/" className="item">
           <img src={ticTacToe} alt="tic tac toe game"/>
           <h1>tic tac toe</h1>
         </a>
